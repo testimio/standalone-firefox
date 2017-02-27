@@ -1,4 +1,4 @@
-FROM selenium/standalone-chrome:2.53.1-beryllium
+FROM selenium/standalone-firefox:2.53.1-beryllium
 
 ENV FIREFOX_PROFILE_URL https://testimstatic.blob.core.windows.net/extension/testim-firefox-profile.zip
 ENV FIREFOX_PROFILE_ZIP_LOC /opt/testim-firefox-profile.zip
